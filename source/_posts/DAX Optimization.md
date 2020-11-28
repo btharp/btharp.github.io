@@ -3,6 +3,10 @@ title: DAX优化20招！！！
 date: 2020-11-27 16:43:09
 tags: Power BI
 subtitle: Power BI优化必看
+<<<<<<< HEAD
+=======
+cover_index: /images/bird.jpg
+>>>>>>> fd75cf0b0009d0be312bd30159d1ac50816e1163
 cover_detail: /images/bird.jpg
 ---
 
@@ -73,8 +77,13 @@ Power BI 性能问题通常是由于数据分析表达式（DAX）语言不够�
   
 ```
   VAR totalRows = [Total Rows]; Ratio = IF(totalRows > 10, SUM(Revenue) / totalRows,0)
+<<<<<<< HEAD
 ```
 
+=======
+  ```
+  
+>>>>>>> fd75cf0b0009d0be312bd30159d1ac50816e1163
 - 您可以将结果度量值存储在变量中，而不必多次计算相同的表达式。
 
 - 您可以在任何需要的地方使用变量引用。相同的变量过程适用于您调用相同度量的所有实例。

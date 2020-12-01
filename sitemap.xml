@@ -102,7 +102,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,63 +110,63 @@
   
   <url>
     <loc>http://example.com/tags/Power-BI/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Stack-Overflow/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E6%88%BF%E5%9C%B0%E4%BA%A7/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E9%A2%84%E6%B5%8B/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/tushare/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E5%AE%B6%E5%B1%85/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2020-11-28</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -24,7 +24,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="DAX优化20招"/>
+        <meta property="og:title" content="DAX优化20招！！！"/>
     
 
     <!--Open Graph Site Name-->
@@ -37,7 +37,7 @@
 
     <!-- Title -->
     
-    <title>DAX优化20招 - btharp</title>
+    <title>DAX优化20招！！！ - btharp</title>
 
     <!-- Custom CSS -->
     
@@ -69,8 +69,7 @@
     
 
 
-<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="btharp" type="application/atom+xml">
-</head>
+<meta name="generator" content="Hexo 5.2.0"></head>
 
 <body>
 
@@ -123,11 +122,13 @@
                 <!-- Main Content -->
                 
 
-    <h1 class="title">DAX优化20招</h1>
+    <h1 class="title">DAX优化20招！！！</h1>
     <div class="meta">
         2020-11-27
     </div>
 
+
+    <span class="image main"><img src="/images/bird.jpg" alt="" /></span>
 
 
 <!-- Gallery -->
@@ -180,12 +181,12 @@
 <li><p>由于度量是连续计算的，因此[Total Rows]表达式将计算两次：首先用于条件检查，然后用于真实条件表达式。</p>
 </li>
 <li><p>不正确的DAX：</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`<span class="keyword">Ratio</span> = <span class="keyword">IF</span>([<span class="keyword">Total</span> Rows] &gt; 10, <span class="built_in">SUM</span>(Revenue) /[<span class="keyword">Total</span> Rows], 0)`</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#96;Ratio &#x3D; IF([Total Rows] &gt; 10, SUM(Revenue) &#x2F;[Total Rows], 0)&#96;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>正确的DAX：</p>
 </li>
 </ul>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">VAR</span> totalRows = [<span class="keyword">Total</span> Rows]; <span class="keyword">Ratio</span> = <span class="keyword">IF</span>(totalRows &gt; 10, <span class="built_in">SUM</span>(Revenue) / totalRows,0)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VAR totalRows &#x3D; [Total Rows]; Ratio &#x3D; IF(totalRows &gt; 10, SUM(Revenue) &#x2F; totalRows,0)</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><p>您可以将结果度量值存储在变量中，而不必多次计算相同的表达式。</p>
@@ -230,7 +231,7 @@
 <li><p>sqlbi</p>
 </li>
 <li><p>若要计算独立于应用于列的任何过滤器的度量，请将All（ColumnName）函数与FILTER函数结合使用，而不要使用Table或VALUE（）。例如：</p>
-<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CALCULATE([Total Sales], FILTER(<span class="name">ALL</span>(<span class="name">Products</span>[Color]), Color = ‘Red’))</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CALCULATE([Total Sales], FILTER(ALL(Products[Color]), Color &#x3D; ‘Red’))</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>如果不需要保留当前上下文，则将ALL与FILTER函数一起使用。</p>
 </li>

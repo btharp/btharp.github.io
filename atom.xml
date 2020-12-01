@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-28T08:08:23.044Z</updated>
+  <updated>2020-12-01T02:28:21.818Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SQL2</title>
+    <link href="http://example.com/2020/12/01/SQL2/"/>
+    <id>http://example.com/2020/12/01/SQL2/</id>
+    <published>2020-12-01T02:23:29.000Z</published>
+    <updated>2020-12-01T02:28:21.818Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SQL Notes</title>
+    <link href="http://example.com/2020/12/01/SQL-Notes/"/>
+    <id>http://example.com/2020/12/01/SQL-Notes/</id>
+    <published>2020-12-01T01:47:32.000Z</published>
+    <updated>2020-12-01T02:28:21.813Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>全球房价看板</title>
